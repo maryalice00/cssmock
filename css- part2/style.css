@@ -1,0 +1,56 @@
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #ecb9b9;
+}
+
+.card {
+    border: 1px solid #bcd7e9;
+    padding: 15px;
+    width: 300px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    background-color: #fff;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.card h3 {
+    margin: 10px 0;
+}
+
+.card p {
+    font-size: 14px;
+    color: #666;
+}
+
+.gallery {
+    display: flex;
+    gap: 10px; 
+    margin-bottom: 20px;
+}
+
+.gallery img {
+    max-width: 100px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.transition-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: #9f90f1;
+    color: white;
+    transition: background-color 0.3s; 
+}
+
+.transition-button:hover {
+    background-color: #0056b3;
+}
